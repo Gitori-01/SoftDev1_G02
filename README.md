@@ -15,5 +15,5 @@ The assignment product of Software Development Practice Ⅰ.
 
 ## 4.参考文献
 
-## 5.成果物リンク(Github pages)
+## 5.成果物プレビュー(Github pages)
 https://gitori-01.github.io/SoftDev1_G02/
