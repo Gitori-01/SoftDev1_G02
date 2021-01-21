@@ -20,21 +20,27 @@
 
         <hr>
         
-        
         <div class="row">
             <form class="col-xs-10">
-                <input type="text" class="form-control js-addTask-value"
+                <input type="text" class="form-control add-task"
                 placeholder="Todo Task">
 
-                <input type="date" name="limit" class="form-control js-addTask-limit">
+                <input type="date" class="form-control add-limit"
+                placeholder="期限日: mm/dd/yyyy">
             </form>
-            <button class="js-addTask-trigger">追加</button>
+            <button class="add-btn">追加</button>
         </div>
         
         <hr>
         
-        <ul class="todo js-addTask-target"　style="text-align:right"></ul>
+        <div class="row">
+            <ul class="lists todo"><p>ToDo</p></ul>
 
+            <hr>
+
+            <ul class="lists done"><p>Done</p></ul>
+        </div>
+        
     </div>
 
     <script src="js/todo.js"></script>

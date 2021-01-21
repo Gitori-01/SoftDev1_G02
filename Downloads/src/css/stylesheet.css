@@ -1,0 +1,17 @@
+body{
+    font-family: serif;
+    background: #fffff0;
+}
+
+.title{
+    color: #282928;
+    font-size: 40px;
+}
+
+.container {
+    max-width: 400px;
+}
+
+.todo li {
+    font-size: 15px;
+}
